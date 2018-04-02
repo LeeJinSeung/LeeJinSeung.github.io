@@ -1,0 +1,45 @@
+header{
+    text-align:center;
+    background-color:powderblue;
+}
+nav{
+    text-align:right;
+    background-color:black;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    padding:14px 16px;
+}
+nav a:hover{
+    opacity: 0.5;
+}
+article{
+    float:left;
+    width:50%;
+    height:250px;
+}
+section{
+    font-size:20px;
+    text-align:center;
+    background-color:red;
+}
+aside{
+    float:right;
+    width:17%;
+    background-color:gray;
+    height:200px;
+    margin-right:50px;
+}
+footer{
+    text-align:center;
+    clear:both;
+    width:100%;
+    background-color:mediumspringgreen;
+}
+ul {
+    list-style-type: none;
+}
+li{
+    color:white;
+}
