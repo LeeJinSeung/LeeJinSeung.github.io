@@ -1,41 +1,193 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>12151459_이진승_0323수업</title>
-        <link rel="stylesheet" type="text/css" href="./4week1.css"> 
-    </head>
-    <body>
-        <header>
-            <h1>My Blog</h1>
-        </header>  
-        <nav>
-            <a href="./3주차.html" target="_self">Home</a>
-            <a href="" target="main_content">Photo</a>
-            <a href="" target="main_content">Web Programing</a>
-            <a href="" target="main_content">Inha Univ.</a>
-        </nav>
-        <section>
-            <p>section</p>
-        </section>
-        <article>
-                <iframe id="main_content" name="main_content"
-                style="background-color:lightyellow" 
-                height=200px; width=1100px;></iframe>
-        </article>
-        <aside>
-            <ul>
-                <li>Reference</li>
-                <li>Photos</li>
-                <li>Web Programing</li>
-                <li>Inha Univ.</li>
-                <li>Google</li>
-                <li>Naver</li>
-                <li>Daum</li>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tottenham Hotspur</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+	.popup:hover .dropdown-menu {
+		display: block;
+		margin-top: 0;
+	}
+	.popup2:hover .dropdown-menu {
+		display: block;
+		margin-top: 0;
+	}
+	.dropdown-menu {
+		background:black;
+	}
+	.image-blurred-edge {
+    width: 1500px;
+    height: 500px;
+    box-shadow: 0 0 15px 15px white inset;
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="main-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">Tottenham
+						</a></h1>
+          </div>
+          <div class="col-md-8">
+            <div class="dropdown">
+              <ul class="nav nav-pills">
+                <li class="popup"><a href="player.html">선수단</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">감독/코치</li>
+						<li><a href="#">골키퍼</li>
+						<li><a href="#">수비수</li>
+						<li><a href="#">미드필더</li>
+						<li><a href="#">공격수</li>
+					</ul></li><li class="popup2"><a href="schedule.html">경기일정</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">EPL</li>
+						<li><a href="#">UCL</li>
+						<li><a href="#">FA CUP</li>
+						<li><a href="#">기타</li>
+					</ul></li><li><a href="photo.html">경기사진</a></li>
+                <li><a href="board.html">자유게시판</a></li>
+              </ul>
+            </div>
+			<div class="dropdown-menu">
+			</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="slider text-center">
+    <img src="./stadium1.png" class="image-blurred-edge" alt="" />
+  </div>
+
+  <!-- column content -->
+  <div id="main-content">
+    <div class="container">
+      <div class="row">
+        <div class="big-box">
+          <div class="col-lg-12">
+            <div class="col-md-4">
+              <div class="box-bg">
+                <div class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.9s">
+                  <div class="align-center">
+                    <i class="fa fa-camera-retro fa-5x"></i>
+                    <h4 class="text-bold">Customizable</h4>
+                    <p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-bg">
+                <div class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.6s">
+                  <div class="align-center">
+                    <i class="fa fa-shield fa-5x"></i>
+                    <h4 class="text-bold">Valid HTML5</h4>
+                    <p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-bg">
+                <div class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
+                  <div class="align-center">
+                    <i class="fa fa-bookmark-o fa-5x"></i>
+                    <h4 class="text-bold">Responsive</h4>
+                    <p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="wow bounceInRight">
+          <div class="col-lg-6">
+            <h4>Maecenas luctus</h4>
+            <p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.</p>
+            <a href="#" class="thumbnail">
+							<img src="img/thumbnails/outline-1.jpg" alt="">
+						</a>
+          </div>
+        </div>
+        <div class="wow bounceInLeft">
+          <div class="col-lg-6">
+            <h4>Maecenas luctus</h4>
+            <p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria volumus.</p>
+            <a href="#" class="thumbnail">
+							<img src="img/thumbnails/ipad.jpg" alt="">
+						</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end column content -->
+  <footer>
+    <section id="footer" class="section footer">
+      <div class="container">
+        <div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+          <div class="col-sm-12 align-center">
+            <ul class="social-network social-circle">
+              <li><a href="https://www.facebook.com/TottenhamHotspur/" class="icoFacebook" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/spursofficial?lang=ko" class="icoTwitter" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			  <li><a href="https://www.instagram.com/spursofficial/?ref=badge" class="icoInstagram" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://plus.google.com/+TottenhamHotspur" class="icoGoogle" title="Google +" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="https://www.youtube.com/user/spursofficial" class="icoYoutube" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
             </ul>
-        </aside>
-        <footer>
-            <h3>Copyright JinSeung Lee</h3>
-        </footer>
-    </body>
+          </div>
+        </div>
+        <div class="row align-center copyright">
+          <div class="col-sm-12 text-center">
+            <p>Copyright &copy; JinSeungLee</p>
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact. 
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Hidayah
+              -->
+              <a href="https://bootstrapmade.com/">Tottenham Hotspur</a> by <a href="https://bootstrapmade.com/">JinSeungLee</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a href="#" class="scrollup"><i class="fa fa-chevron-up"> </i></a>
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script type="text/javascript">
+    new WOW().init();
+  </script>
+
+</body>
+
 </html>
